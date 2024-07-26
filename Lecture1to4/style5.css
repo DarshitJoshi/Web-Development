@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition: all;
+    transition-duration: 1s;
+}
+div:hover{   /*pseudo class */
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+div:active{
+    background-color: blue;   /* right click to see color blue*/
+}

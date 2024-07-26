@@ -1,0 +1,32 @@
+div{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+}
+@keyframes colorAnimate{
+    from{
+        left:0px;
+        background-color: aqua;
+    }
+    to{
+        left: 900px;
+        background-color: red;
+        color: white;
+    }
+}
+/* @keyframes colorAnimate {
+    from{left:0px;}
+    to{left: 300px;}
+} */

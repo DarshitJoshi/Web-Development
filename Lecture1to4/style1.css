@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(150, 150, 231);
+}
+div{
+    background-color: #0f1111;
+    height: 40px;
+    border: 2px solid #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    margin-right: 200px;
+}
+.h1{
+    font-size: 25px;
+    color: orange ;
+}
+.h2 , .h3 , .h4{
+    color: white;
+}
+button{
+    background-color: #f08804;
+    color: white;
+}
